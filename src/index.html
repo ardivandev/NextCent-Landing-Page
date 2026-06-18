@@ -1,0 +1,812 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexcent</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/logo/Icon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="fixed top-0 right-0 left-0 z-9999 bg-white py-5 shadow">
+      <div class="container">
+        <div class="flex items-center justify-between">
+          <div>
+            <a href="#">
+              <img src="assets/logo/logo.svg" alt="Nexcent" />
+            </a>
+          </div>
+          <div>
+            <div
+              id="navbar"
+              class="absolute top-full -right-full mt-3 w-full shadow transition-all duration-500 ease-in-out md:w-1/2 lg:static lg:right-0 lg:mt-0 lg:w-full lg:shadow-none"
+            >
+              <div
+                class="flex flex-col gap-3 rounded bg-white px-2 py-3 lg:flex-row lg:items-center lg:gap-5 lg:rounded-none lg:p-0"
+              >
+                <a href="#" class="hover:text-primary">Home</a>
+                <a href="#features" class="hover:text-primary">Features</a>
+                <a href="#community" class="hover:text-primary">Community</a>
+                <a href="#pricing" class="hover:text-primary">Pricing</a>
+                <button
+                  type="button"
+                  class="bg-primary flex cursor-pointer items-center gap-2 rounded-md px-6 py-3 text-white transition-all duration-300 hover:gap-3 hover:bg-[#237D31]"
+                >
+                  Register Now
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div>
+              <button
+                type="button"
+                title="menu"
+                id="hamburgermenu"
+                class="flex cursor-pointer flex-col gap-2 lg:hidden"
+              >
+                <span class="hamburger-line origin-top-left"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line origin-bottom-left"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <main>
+      <!-- Hero Section Start -->
+      <section id="hero" class="bg-silver relative">
+        <div class="container">
+          <div class="flex w-full flex-col justify-center pt-28 pb-20 lg:pt-40">
+            <div
+              class="flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between"
+            >
+              <div class="space-y-3 lg:space-y-6">
+                <h1 class="text-4xl font-semibold md:text-5xl lg:text-6xl">
+                  Lessons and insights <br />
+                  <span class="text-primary">from 8 years</span>
+                </h1>
+                <p class="text-slate-600 md:text-lg">
+                  Where to grow your business as a photographer: site or social
+                  media?
+                </p>
+                <button
+                  type="button"
+                  class="bg-primary flex cursor-pointer items-center gap-2 rounded-md px-6 py-3 text-white transition-all duration-300 hover:gap-3 hover:bg-[#237D31] md:px-8 md:py-3 md:text-lg"
+                >
+                  Register
+                </button>
+              </div>
+              <div>
+                <img
+                  src="assets/images/Illustration.svg"
+                  alt="Image illustration"
+                  class="md:w-xs lg:w-lg"
+                />
+              </div>
+            </div>
+            <div class="absolute bottom-5 left-1/2 -translate-x-1/2">
+              <div class="flex gap-3">
+                <span class="bg-primary block h-4 w-4 rounded-full"></span>
+                <span
+                  class="bg-primary block h-4 w-4 rounded-full opacity-80"
+                ></span>
+                <span
+                  class="bg-primary block h-4 w-4 rounded-full opacity-60"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section End -->
+
+      <!-- Client Section Start -->
+      <section id="client" class="py-20">
+        <div class="container">
+          <div class="mb-10 space-y-3 text-center lg:space-y-6">
+            <h2 class="text-3xl font-semibold md:text-4xl lg:text-5xl">
+              Our Clients
+            </h2>
+            <p class="text-slate-600 md:text-lg">
+              We have been working with some Fortune 500+ clients
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-10 md:grid-cols-3 lg:grid-cols-7">
+            <img
+              src="assets/images/client/logo-client1.svg"
+              alt="logo client 1"
+              class="custom-logo-client"
+            />
+            <img
+              src="assets/images/client/logo-client2.svg"
+              alt="logo client 2"
+              class="custom-logo-client"
+            />
+            <img
+              src="assets/images/client/logo-client3.svg"
+              alt="logo client 3"
+              class="custom-logo-client"
+            />
+            <img
+              src="assets/images/client/logo-client4.svg"
+              alt="logo client 4"
+              class="custom-logo-client"
+            />
+            <img
+              src="assets/images/client/logo-client5.svg"
+              alt="logo client 5"
+              class="custom-logo-client"
+            />
+            <img
+              src="assets/images/client/logo-client6.svg"
+              alt="logo client 6"
+              class="custom-logo-client"
+            />
+            <img
+              src="assets/images/client/logo-client7.svg"
+              alt="logo client 7"
+              class="custom-logo-client"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Client Section End -->
+
+      <!-- Community Section Start -->
+      <section id="community" class="py-20">
+        <div class="container">
+          <div class="mb-10 space-y-3 text-center lg:space-y-6">
+            <h2 class="text-3xl font-semibold md:text-4xl lg:text-5xl">
+              Manage your entire community in a single system
+            </h2>
+            <p class="text-slate-600 md:text-lg">
+              Who is Nextcent suitable for?
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-1 justify-items-center gap-5 md:grid-cols-2 lg:grid-cols-3"
+          >
+            <!-- Card 1 -->
+            <div
+              class="flex h-72 w-72 flex-col items-center justify-center rounded bg-white p-3 text-center shadow-md transition-all duration-300 hover:scale-110 "  data-aos="fade-down" data-aos-delay="400" data-aos-easing="ease-in-out" data-aos-once="true"
+            >
+              <div class="mb-7">
+                <div
+                  class="relative h-8.5 w-8.5 rounded-tl-sm rounded-tr-md rounded-br-xl rounded-bl-sm bg-[#E8F5E9]"
+                >
+                  <span class="absolute -top-1 -left-3">
+                    <img
+                      src="assets/images/community/icon-one.svg"
+                      alt="Membership Organisations Icon"
+                    />
+                  </span>
+                </div>
+              </div>
+              <div class="space-y-3">
+                <h3 class="text-2xl font-bold md:text-4xl lg:text-3xl">
+                  Membership Organisations
+                </h3>
+                <p class="lg:text-md text-slate-600">
+                  Our membership management software provides full automation of
+                  membership renewals and payments
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div
+              class="flex h-72 w-72 flex-col items-center justify-center rounded bg-white p-3 text-center shadow-md transition-all duration-300 hover:scale-110" data-aos="fade-down" data-aos-delay="800" data-aos-easing="ease-in-out" data-aos-once="true"
+            >
+              <div class="mb-7">
+                <div
+                  class="relative h-8.5 w-8.5 rounded-tl-sm rounded-tr-md rounded-br-xl rounded-bl-sm bg-[#E8F5E9]"
+                >
+                  <span class="absolute -top-1 -left-3">
+                    <img
+                      src="assets/images/community/icon-two.svg"
+                      alt="National Associations Icon"
+                      class="w-9"
+                    />
+                  </span>
+                </div>
+              </div>
+              <div class="space-y-3">
+                <h3 class="text-2xl font-bold md:text-4xl lg:text-3xl">
+                  National Associations
+                </h3>
+                <p class="lg:text-md text-slate-600">
+                  Our membership management software provides full automation of
+                  membership renewals and payments
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div
+              class="flex h-72 w-72 flex-col items-center justify-center rounded bg-white p-3 text-center shadow-md transition-all duration-300 hover:scale-110" data-aos="fade-down" data-aos-delay="1200" data-aos-easing="ease-in-out" data-aos-once="true"
+            >
+              <div class="mb-7">
+                <div
+                  class="relative h-8.5 w-8.5 rounded-tl-sm rounded-tr-md rounded-br-xl rounded-bl-sm bg-[#E8F5E9]"
+                >
+                  <span class="absolute -top-1 -left-4">
+                    <img
+                      src="assets/images/community/icon-three.svg"
+                      alt="Clubs and Groups Icon"
+                      class="w-10"
+                    />
+                  </span>
+                </div>
+              </div>
+              <div class="space-y-3">
+                <h3 class="text-2xl font-bold md:text-4xl lg:text-3xl">
+                  Clubs And Groups
+                </h3>
+                <p class="lg:text-md text-slate-600">
+                  Our membership management software provides full automation of
+                  membership renewals and payments
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Community Section End -->
+
+      <!-- Unlock Section Start -->
+      <section id="features" class="py-20">
+        <div class="container">
+          <div
+            class="flex flex-col items-center lg:flex-row lg:justify-between"
+          >
+            <div class="mb-10 lg:mb-0" data-aos="fade-right" data-aos-delay="400" data-aos-easing="ease-in-out" data-aos-once="true">
+              <img
+                src="assets/images/unlock.svg"
+                alt="Image Illustration"
+                class="w-sm lg:w-lg"
+              />
+            </div>
+            <div class="space-y-6 lg:w-[60%]" data-aos="fade-left" data-aos-delay="800" data-aos-easing="ease-in-out" data-aos-once="true">
+              <h2 class="text-3xl font-semibold md:text-4xl lg:text-5xl">
+                The unseen of spending three years at Pixelgrade
+              </h2>
+              <p class="leading-tight text-slate-600 lg:text-lg">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+                amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
+                Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+                tristique iaculis. Nullam pulvinar sit amet risus pretium
+                auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus
+                sem. Donec elementum pulvinar odio.
+              </p>
+              <button
+                type="button"
+                class="bg-primary flex cursor-pointer items-center gap-2 rounded-md px-6 py-3 text-white transition-all duration-300 hover:gap-3 hover:bg-[#237D31] md:px-8 md:py-3 md:text-lg"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Unlock Section End -->
+
+      <!-- Achievements Section Start -->
+      <section id="achievements" class="bg-silver py-20">
+        <div class="container">
+          <div
+            class="flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-around"
+          >
+            <div class="space-y-3 lg:space-y-6">
+              <h2 class="text-3xl font-semibold md:text-4xl lg:text-5xl">
+                Helping a local <br />
+                <span class="text-primary">business reinvent itself</span>
+              </h2>
+              <p class="leading-tight text-slate-600 lg:text-lg">
+                We reached here with our hard work and dedication
+              </p>
+            </div>
+            <div class="grid grid-cols-2 gap-5">
+              <div class="flex items-center gap-3">
+                <img
+                  src="assets/images/achievements/icon-one.svg"
+                  alt="Members icon"
+                />
+                <div>
+                  <h3 class="text-2xl font-semibold md:text-3xl">2,245,341</h3>
+                  <p class="text-sm text-slate-600">Members</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <img
+                  src="assets/images/achievements/icon-two.svg"
+                  alt="Clubs icon"
+                  class="w-10"
+                />
+                <div>
+                  <h3 class="text-2xl font-semibold md:text-3xl">46,328</h3>
+                  <p class="text-sm text-slate-600">Clubs</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <img
+                  src="assets/images/achievements/icon-three.svg"
+                  alt="Event bookings icon"
+                />
+                <div>
+                  <h3 class="text-2xl font-semibold md:text-3xl">828,867</h3>
+                  <p class="text-sm text-slate-600">Event Bookings</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <img
+                  src="assets/images/achievements/icon-four.svg"
+                  alt="Payments Icon"
+                />
+                <div>
+                  <h3 class="text-2xl font-semibold md:text-3xl">1,926,436</h3>
+                  <p class="text-sm text-slate-600">Payments</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Achievements Section End -->
+
+      <!-- Unlock 2 Section Start -->
+      <section id="unlocktwo" class="py-20">
+        <div class="container">
+          <div
+            class="flex flex-col items-center lg:flex-row lg:justify-between"
+          >
+            <div class="mb-10 lg:mb-0" data-aos="fade-right" data-aos-delay="400" data-aos-easing="ease-in-out" data-aos-once="true">
+              <img
+                src="assets/images/pana.svg"
+                alt="Image Illustration"
+                class="w-sm lg:w-lg"
+              />
+            </div>
+            <div class="space-y-6 lg:w-[60%]" data-aos="fade-left" data-aos-delay="800" data-aos-easing="ease-in-out" data-aos-once="true">
+              <h2 class="text-3xl font-semibold md:text-4xl lg:text-5xl">
+                How to design your site footer like we did
+              </h2>
+              <p class="leading-tight text-slate-600 lg:text-lg">
+                Donec a eros justo. Fusce egestas tristique ultrices. Nam
+                tempor, augue nec tincidunt molestie, massa nunc varius arcu, at
+                scelerisque elit erat a magna. Donec quis erat at libero
+                ultrices mollis. In hac habitasse platea dictumst. Vivamus
+                vehicula leo dui, at porta nisi facilisis finibus. In euismod
+                augue vitae nisi ultricies, non aliquet urna tincidunt. Integer
+                in nisi eget nulla commodo faucibus efficitur quis massa.
+                Praesent felis est, finibus et nisi ac, hendrerit venenatis
+                libero. Donec consectetur faucibus ipsum id gravida.
+              </p>
+              <button
+                type="button"
+                class="bg-primary flex cursor-pointer items-center gap-2 rounded-md px-6 py-3 text-white transition-all duration-300 hover:gap-3 hover:bg-[#237D31] md:px-8 md:py-3 md:text-lg"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Unlock 2 Section End -->
+
+      <!-- Customers Section Start -->
+      <section id="customers" class="bg-silver py-20">
+        <div class="container">
+          <div
+            class="flex flex-col items-center gap-5 lg:flex-row lg:justify-around"
+          >
+            <div data-aos="fade-right" data-aos-delay="400" data-aos-easing="ease-in-out" data-aos-once="true">
+              <img
+                src="assets/images/cutomers/image-one.svg"
+                alt="Customers Image"
+                class="mx-auto w-sm lg:w-md"
+              />
+            </div>
+            <div class="flex flex-col gap-5 lg:w-[60%]" data-aos="fade-left" data-aos-delay="800" data-aos-easing="ease-in-out" data-aos-once="true">
+              <div class="space-y-3 lg:space-y-5">
+                <p class="leading-tight text-slate-600 lg:text-lg">
+                  Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
+                  lobortis sem dui, vel rutrum risus tincidunt ullamcorper.
+                  Proin eu enim metus. Vivamus sed libero ornare, tristique quam
+                  in, gravida enim. Nullam ut molestie arcu, at hendrerit elit.
+                  Morbi laoreet elit at ligula molestie, nec molestie mi
+                  blandit. Suspendisse cursus tellus sed augue ultrices, quis
+                  tristique nulla sodales. Suspendisse eget lorem eu turpis
+                  vestibulum pretium. Suspendisse potenti. Quisque malesuada
+                  enim sapien, vitae placerat ante feugiat eget. Quisque
+                  vulputate odio neque, eget efficitur libero condimentum id.
+                  Curabitur id nibh id sem dignissim finibus ac sit amet magna.
+                </p>
+                <p class="text-primary text-xl font-semibold lg:text-2xl">
+                  Tim Smith
+                </p>
+                <p class="text-sm text-slate-500 lg:text-lg">
+                  British Dragon Boat Racing Association
+                </p>
+              </div>
+              <div class="flex flex-wrap gap-5 lg:justify-around">
+                <img src="assets/images/client/logo-client1.svg" alt="" />
+                <img src="assets/images/client/logo-client2.svg" alt="" />
+                <img src="assets/images/client/logo-client3.svg" alt="" />
+                <img src="assets/images/client/logo-client4.svg" alt="" />
+                <img src="assets/images/client/logo-client5.svg" alt="" />
+                <img src="assets/images/client/logo-client6.svg" alt="" />
+                <a
+                  href="#"
+                  class="text-primary flex gap-3 text-lg font-semibold hover:text-[#237D31]"
+                  >Meet all customers
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                      />
+                    </svg> </span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Customers Section End -->
+
+      <!-- Community Update Section Start -->
+      <section id="community-update" class="pt-20 pb-40">
+        <div class="container">
+          <div class="mb-10 lg:mx-auto lg:w-3xl">
+            <h2
+              class="mb-3 text-3xl font-semibold md:text-4xl lg:text-center lg:text-5xl"
+            >
+              Caring is the new marketing
+            </h2>
+            <p class="leading-tight text-slate-600 lg:text-center lg:text-lg">
+              The Nextcent blog is the best place to read about the latest
+              membership insights, trends and more. See who's joining the
+              community, read about how our community are increasing their
+              membership income and lot's more.
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-1 justify-items-center gap-24 md:grid-cols-2 lg:grid-cols-3"
+          >
+            <!-- Card 1 -->
+            <div class="relative w-fit" data-aos="fade-down" data-aos-delay="400" data-aos-easing="ease-in-out" data-aos-once="true">
+              <img
+                src="assets/images/community-update/image-one.svg"
+                alt="Blog Image 1"
+                class="w-sm"
+              />
+
+              <div
+                class="absolute bottom-[-60px] left-1/2 w-[85%] -translate-x-1/2 rounded-xl bg-white p-5 text-center shadow-lg"
+              >
+                <p class="mb-4 font-medium text-slate-700">
+                  Creating Streamlined Safeguarding Processes with OneRen
+                </p>
+
+                <a
+                  href="#"
+                  class="text-primary flex items-center justify-center gap-2 font-semibold hover:text-[#237D31]"
+                >
+                  Readmore
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="relative w-fit" data-aos="fade-down" data-aos-delay="800" data-aos-easing="ease-in-out" data-aos-once="true">
+              <img
+                src="assets/images/community-update/image-two.svg"
+                alt="Blog Image 2"
+                class="w-sm"
+              />
+
+              <div
+                class="absolute bottom-[-60px] left-1/2 w-[85%] -translate-x-1/2 rounded-xl bg-white p-5 text-center shadow-lg"
+              >
+                <p class="mb-4 font-medium text-slate-700">
+                  What are your safeguarding responsibilities and how can you
+                  manage them?
+                </p>
+
+                <a
+                  href="#"
+                  class="text-primary flex items-center justify-center gap-2 font-semibold hover:text-[#237D31]"
+                >
+                  Readmore
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="relative w-fit" data-aos="fade-down" data-aos-delay="1200" data-aos-easing="ease-in-out" data-aos-once="true">
+              <img
+                src="assets/images/community-update/image-three.svg"
+                alt="Blog Image 3"
+                class="w-sm"
+              />
+
+              <div
+                class="absolute bottom-[-60px] left-1/2 w-[85%] -translate-x-1/2 rounded-xl bg-white p-5 text-center shadow-lg"
+              >
+                <p class="mb-4 font-medium text-slate-700">
+                  Revamping the Membership Model with Triathlon Australia
+                </p>
+
+                <a
+                  href="#"
+                  class="text-primary flex items-center justify-center gap-2 font-semibold hover:text-[#237D31]"
+                >
+                  Readmore
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Community Update Section End -->
+    </main>
+
+    <!-- Footer Start -->
+    <footer>
+      <section class="bg-silver py-20">
+        <div class="container">
+          <div class="flex flex-col items-center justify-center gap-10">
+            <h2
+              class="text-center text-4xl font-semibold md:w-2xl md:text-5xl lg:text-6xl"
+            >
+              Pellentesque suscipit fringilla libero eu.
+            </h2>
+            <button
+              type="button"
+              class="bg-primary flex cursor-pointer items-center gap-2 rounded-md px-6 py-3 text-white transition-all duration-300 hover:gap-3 hover:bg-[#237D31]"
+            >
+              Get Demo
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#263238] pt-20 pb-10">
+        <div class="container">
+          <div
+            class="mb-20 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4 lg:justify-items-center"
+          >
+            <div class="space-y-6">
+              <img
+                src="assets/logo/logo-white.svg"
+                alt="Nexcent Logo"
+                class="w-52"
+              />
+              <p class="text-slate-100">
+                Copyright © 2020 Landify UI Kit. <br />
+                All rights reserved
+              </p>
+              <div class="flex items-center gap-5">
+                <a href="#">
+                  <img
+                    src="assets/images/sosial-icons/instragram.svg"
+                    alt="instragram"
+                    class="w-10"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="assets/images/sosial-icons/sosialmedia.svg"
+                    alt="sosial-media-icon"
+                    class="w-10"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="assets/images/sosial-icons/twitter.svg"
+                    alt="twitter
+                    class="w-10"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="assets/images/sosial-icons/youtube.svg"
+                    alt="youtube"
+                    class="w-10"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="space-y-6">
+              <h3 class="text-lg font-semibold text-white">Company</h3>
+              <div class="flex flex-col gap-2 text-white">
+                <a
+                  href="#"
+                  class="hover:text-primary transition-all duration-300"
+                  >About Us</a
+                >
+                <a
+                  href="#"
+                  class="hover:text-primary transition-all duration-300"
+                  >Blog</a
+                >
+                <a
+                  href="#"
+                  class="hover:text-primary transition-all duration-300"
+                  >Contact Us</a
+                >
+                <a
+                  href="#"
+                  class="hover:text-primary transition-all duration-300"
+                  >Pricing</a
+                >
+                <a
+                  href="#"
+                  class="hover:text-primary transition-all duration-300"
+                  >Testimonials</a
+                >
+              </div>
+            </div>
+            <div class="space-y-6">
+              <h3 class="text-lg font-semibold text-white">Support</h3>
+              <div class="flex flex-col gap-2 text-white">
+                <a
+                  href="#"
+                  class="hover:text-primary transition-all duration-300"
+                  >Help center</a
+                >
+                <a
+                  href="#"
+                  class="hover:text-primary transition-all duration-300"
+                  >Term of service</a
+                >
+                <a
+                  href="#"
+                  class="hover:text-primary transition-all duration-300"
+                  >Legal</a
+                >
+                <a
+                  href="#"
+                  class="hover:text-primary transition-all duration-300"
+                  >Privacy policy</a
+                >
+                <a
+                  href="#"
+                  class="hover:text-primary transition-all duration-300"
+                  >Status</a
+                >
+              </div>
+            </div>
+            <div class="space-y-6">
+              <h3 class="text-lg font-semibold text-white">Stay up to date</h3>
+              <form action="" class="relative w-fit">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  title="email"
+                  placeholder="Your email address"
+                  class="rounded-lg bg-[#717171] px-2 py-2 text-white placeholder:text-sm placeholder:text-white"
+                />
+                <span
+                  class="absolute top-1/2 right-4 -translate-y-1/2 cursor-pointer"
+                >
+                  <img src="assets/images/send.svg" alt="Send icon" class="h-4 w-4" />
+                </span>
+              </form>
+            </div>
+          </div>
+          <div class="border-t-2 border-t-white pt-5 text-center text-white">
+            <p>
+              Crafted with ❤️ by Ardivan Nur Raihan Rahman. Design inspired by
+              <a
+                href="https://www.figma.com/community/file/1222060007934600841/minimal-landing-page-design-website-home-page-design-agency-website-ui-design"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-primary hover:underline"
+              >
+                Muntasir Billah </a
+              >.
+            </p>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

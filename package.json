@@ -1,0 +1,25 @@
+{
+  "name": "nexcent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server src --files src",
+    "watch-css": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/main.css --watch",
+    "dev": "concurrently \"npm run serve\" \"npm run watch-css\"",
+    "build": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/main.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.1",
+    "browser-sync": "^3.0.4",
+    "concurrently": "^10.0.3",
+    "tailwindcss": "^4.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.4",
+    "prettier-plugin-tailwindcss": "^0.8.0"
+  }
+}

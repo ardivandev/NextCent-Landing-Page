@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #4caf4f;
+  --color-silver: #f5f7fa;
+}
+
+@layer components {
+  .hamburger-line {
+    @apply block h-0.5 w-7.5 rounded bg-black transition-all duration-300;
+  }
+
+  .hamburger-active > span:nth-child(1) {
+    @apply rotate-45;
+  }
+  .hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+  }
+  .hamburger-active > span:nth-child(3) {
+    @apply -rotate-45;
+  }
+
+  .custom-logo-client {
+    @apply mx-auto w-12;
+  }
+}
+
+@layer utilities {
+  .container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+  }
+}
