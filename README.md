@@ -1,13 +1,13 @@
 # Nexcent Landing Page
 
-A responsive landing page inspired by the Nexcent design, built using HTML, Tailwind CSS v4, and JavaScript.
+Landing page responsif yang terinspirasi oleh desain Nexcent, dibangun menggunakan HTML, Tailwind CSS v4, dan JavaScript.
 
 ## ✨ Features
 
-- Responsive Design
-- Mobile Navigation Menu
-- Smooth Scroll Animations
-- Modern UI Layout
+- Desain Responsif
+- Menu Navigasi Seluler
+- Animasi Gulir yang Halus
+- Tata Letak UI Modern
 
 ## 🛠️ Tech Stack
 
@@ -16,12 +16,7 @@ A responsive landing page inspired by the Nexcent design, built using HTML, Tail
 - JavaScript
 - AOS
 
-## 🚀 Getting Started
-
-```bash
-npm install
-npm run dev
-```
+## 📸 Preview
 
 ## 🎨 Design Credit
 
@@ -29,6 +24,6 @@ Special thanks to Muntasir Billah for the original Figma design.
 
 👉 [Click Here to View the Figma Design](https://www.figma.com/community/file/1222060007934600841/minimal-landing-page-design-website-home-page-design-agency-website-ui-design)
 
-## 👨‍💻 Author
+---
 
-Ardivan Nur Raihan Rahman
+@ Ardivan Nur Raihan Rahman (2026) | Project HTML + CSS + JS + Tailwind Css | Design By Muntasir Billah
