@@ -18,6 +18,8 @@ Landing page responsif yang terinspirasi oleh desain Nexcent, dibangun menggunak
 
 ## 📸 Preview
 
+<img width="2910" height="1672" alt="Macbook-Air-nexcent-prjct vercel app" src="https://github.com/user-attachments/assets/bc3cd25d-85ea-4b2f-9f91-6820c8b55811" />
+
 ## 🎨 Design Credit
 
 Special thanks to Muntasir Billah for the original Figma design.
